@@ -13,9 +13,7 @@
   },
   "search-result-layout.desktop": {
     "children": [
-      "breadcrumb.search",
-      "search-title.v2",
-      "flex-layout.row#top",
+   //   "flex-layout.row#top",
       "search-fetch-previous",
       "flex-layout.row#results",
       "search-fetch-more"
@@ -32,16 +30,8 @@
   },
   "flex-layout.row#results": {
     "children": [
-      "flex-layout.col#filter",
+
       "flex-layout.col#search"
-    ]
-  },
-  "flex-layout.col#filter": {
-    "props": {
-      "width": "20%"
-    },
-    "children": [
-      "filter-navigator.v3"
     ]
   },
   "flex-layout.col#search": {

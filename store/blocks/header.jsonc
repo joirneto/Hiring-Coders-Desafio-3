@@ -24,80 +24,8 @@
       "blockClass": "sticky-header"
     },
     "children": [
-      "flex-layout.row#desktop1",
-      "flex-layout.row#menu",
-      "tab-layout#home"
+      "flex-layout.row#desktop1"
     ]
-  },
-  "tab-layout#home": {
-    "children": [
-      "tab-list#home",
-      "tab-content#home"
-    ],
-    "props": {
-      "blockClass": "home",
-      "defaultActiveTabId": "home1"
-    }
-  },
-  "tab-list#home": {
-    "children": [
-      "tab-list.item#home1",
-      "tab-list.item#home2",
-      "tab-list.item#home3"
-    ]
-  },
-  "tab-list.item#home1": {
-    "props": {
-      "tabId": "home1",
-      "label": "Home 1",
-      "defaultActiveTab": true    }
-  },
-  "tab-list.item#home2": {
-    "props": {
-      "tabId": "home2",
-      "label": "Home 2"
-    }
-  },
-  "tab-list.item#home3": {
-    "props": {
-      "tabId": "home3",
-      "label": "Home 3"
-    }
-  },
-  "tab-content#home": {
-    "children": [
-      "tab-content.item#home1",
-      "tab-content.item#home2",
-      "tab-content.item#home3"
-    ]
-  },
-  "tab-content.item#home1": {
-    "children": [
-      "search-result-layout.customQuery#teste"
-    ],
-    "props": {
-      "tabId": "home1"
-    }
-  },
-
-  "search-result-layout.customQuery#teste": {
-    "props": {
-      "queryField": "geladeira",
-      "querySchema": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "skip"
-      }
-    }
-  },
-  "tab-content.item#home2": {
-    "props": {
-      "tabId": "home2"
-    }
-  },
-  "tab-content.item#home3": {
-    "props": {
-      "tabId": "home3"
-    }
   },
   "flex-layout.row#desktop1": {
     "props": {
@@ -111,6 +39,7 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "search-bar",
+      "flex-layout.col#spacer",
       "minicart.v2"
     ]
   },
