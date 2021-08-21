@@ -1,15 +1,58 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "slider-layout#text-test",
+      "search-result-layout.customQuery#home"
     ]
   },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
+   "slider-layout#text-test": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "carousel"
+      },
+      "children": ["image#1","image#2"]
+    },
+    "image#1": {
+      "props": {
+        "src": "assets/banner1.png",
+        "maxWidth": "100%"
+      }
+    },
+    "image#2": {
+      "props": {
+        "src": "assets/banner2.png",
+        "maxWidth": "100%"
+      }
+    },
+    "search-result-layout.customQuery#home": {
+      "props": {
+        "querySchema": {
+          "skusFilter": "FIRST_AVAILABLE",
+          "simulationBehavior": "skip"
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    },
+    "search-result-layout.desktop": {
+      "children": [
+        "flex-layout.row#searchbread",
+        "flex-layout.row#searchtitle",
+        "flex-layout.row#result"
+      ],
+      "props": {
+        "preventRouteChange": true
+      }
     }
-  }
+
+  
 }
