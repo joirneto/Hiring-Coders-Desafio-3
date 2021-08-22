@@ -9,7 +9,7 @@ Layout proposto:
 
 Layout final:
 
-[![layout-final](assets/layout-final.jpg)](https://georgemaiaupdmedal--hiringcoders2021.myvtex.com/)
+[![layout-final](assets/layout-final.jpg)](https://desafio3joir--hiringcoders2021.myvtex.com/)
 
 ## Desktop
 
