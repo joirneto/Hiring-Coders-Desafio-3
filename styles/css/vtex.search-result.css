@@ -4,4 +4,6 @@
 
 .gallery {
     background-color: #303030;
+    display: flex;
+    
 }

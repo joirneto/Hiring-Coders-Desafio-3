@@ -181,7 +181,7 @@
         "maxItemsPerPage": 8,
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip",
-        "queryField" : "etapa",
+        "queryField" : "UpMedal/Signos",
         "mapField": "ft"
       }
     },
@@ -197,7 +197,7 @@
         "maxItemsPerPage": 8,
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip",
-        "queryField" : "divertidos",
+        "queryField" : "Kit UpMedal/Divertidos",
         "mapField": "ft"
       }
     },
@@ -213,7 +213,7 @@
         "maxItemsPerPage": 8,
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip",
-        "queryField" : "7maravilhas",
+        "queryField" : "Kit UpMedal/Maravilhas",
         "mapField": "ft"
       }
     },
@@ -229,7 +229,7 @@
         "maxItemsPerPage": 8,
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip",
-        "queryField" : "guerreiros",
+        "queryField" : "Kit UpMedal/Guerreiros",
         "mapField": "ft"
       }
     },

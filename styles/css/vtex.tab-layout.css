@@ -7,4 +7,19 @@
     border:  none;
     border-radius: 0;
     border-bottom: medium solid #59ff00;
+    color: white;
+}
+
+.contentItem {
+    background-color: #212121;
+}
+
+.listItem{
+    background-color: #212121;
+    color: white;
+}
+
+.listItem :global(.vtex-button){
+    background-color: #212121;
+    color: white;
 }
