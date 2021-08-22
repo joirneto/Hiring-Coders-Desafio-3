@@ -84,43 +84,43 @@
     ]
   },
   "tab-content.item#promocao": {
-    "children": ["slider-layout#text-test","search-result-layout.customQuery#promocao"],
+    "children": ["slider-layout","search-result-layout.customQuery#promocao"],
     "props": {
       "tabId": "promocao"
     }
   },
   "tab-content.item#corinthians": {
-    "children": ["slider-layout#text-test","search-result-layout.customQuery#corinthians"],
+    "children": ["slider-layout","search-result-layout.customQuery#corinthians"],
     "props": {
       "tabId": "corinthians"
     }
   },
   "tab-content.item#palmeiras": {
-    "children": ["slider-layout#text-test","search-result-layout.customQuery#palmeiras"],
+    "children": ["slider-layout","search-result-layout.customQuery#palmeiras"],
     "props": {
       "tabId": "palmeiras"
     }
   },
   "tab-content.item#signos": {
-    "children": ["slider-layout#text-test","search-result-layout.customQuery#signos"],
+    "children": ["slider-layout","search-result-layout.customQuery#signos"],
     "props": {
       "tabId": "signos"
     }
   },
   "tab-content.item#divertidos": {
-    "children": ["slider-layout#text-test","search-result-layout.customQuery#divertidos"],
+    "children": ["slider-layout","search-result-layout.customQuery#divertidos"],
     "props": {
       "tabId": "divertidos"
     }
   },
   "tab-content.item#7maravilhas": {
-    "children": ["slider-layout#text-test","search-result-layout.customQuery#7maravilhas"],
+    "children": ["slider-layout","search-result-layout.customQuery#7maravilhas"],
     "props": {
       "tabId": "7maravilhas"
     }
   },
   "tab-content.item#guerreiros": {
-    "children": ["slider-layout#text-test","search-result-layout.customQuery#guerreiros"],
+    "children": ["slider-layout","search-result-layout.customQuery#guerreiros"],
     "props": {
       "tabId": "guerreiros"
     }
@@ -254,10 +254,10 @@
     ]
   },
   
-
+ // slider-layout#text-test
   //FIM SEARCH-RESULT
 
-  "slider-layout#text-test": {
+  "slider-layout": {
     "props": {
       "itemsPerPage": {
         "desktop": 1,
