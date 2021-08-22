@@ -109,15 +109,14 @@
       "horizontalAlign": "center"
     },
     "children": [
-      "whatsappfabiano",
+      "image#whatsapp",
       "rich-text#suporte"
     ]
   },
-  "whatsappfabiano":{
+  "image#whatsapp":{
     "props":{
-        "title": "WhatsApp",
-        "url": "https://api.whatsapp.com/send?phone=5585988111469&text=Como%20posso%20te%20ajudar%3F",
-        "icon": "assets/icons/whatsapp.svg"
+      "src": "assets/icons/whatsapp.svg",
+      "link": "https://api.whatsapp.com/send?phone=5585988111469&text=Como%20posso%20te%20ajudar%3F"
     }
   },
   "rich-text#suporte": {
@@ -140,7 +139,7 @@
   "image#newsletter": {
     "props": {
       "src": "assets/icons/newsletter.svg",
-      "link": "/formleads"
+      "link": "/"
     }
   },  
   "rich-text#newsletter": {
